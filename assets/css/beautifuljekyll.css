@@ -29,20 +29,33 @@ p {
   line-height: 1.5;
   margin: 1.875rem 0;
 }
-h1 {
-  font-family: "Apple Chancery","Lucida Handwriting", cursive;
-  font-weight: 600;
+div.home-heading h1 {
+  font-family: 'WindSong';
+  font-weight: 400;
   line-height: 1.1;
+  margin-top: 0;
 }
-h2,h3,h4,h5,h6 {
+div.page-heading h1 {
+  font-family: 'Alegreya Sans';
+  font-weight: 200;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+h2, h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
 }
+
 h1 {
+  font-family: 'Ag';
+  font-weight: 900;
+
   font-size: 2.25rem;
 }
-h2 {
+
+h2, span {
   font-size: 1.875rem;
 }
 h3 {
@@ -69,9 +82,10 @@ blockquote p:first-child {
   margin-top: 0;
 }
 hr.small {
-  max-width: 6.25rem;
+  max-width: 10rem;
   margin: 1rem auto;
-  border-width: 0.25rem;
+  margin-top: 0;
+  border-width: 0.1rem;
   border-color: inherit;
   border-radius: 0.1875rem;
 }
@@ -203,6 +217,7 @@ img {
 .navbar-toggler {
   font-size: 1rem;
   margin: 0.5rem 0;
+  border: none;
 }
 .navbar-custom .navbar-toggler:focus,
 .navbar-custom .navbar-toggler:hover {
@@ -333,6 +348,12 @@ img {
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
 }
+
+.navbar-custom .avatar-container img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
 .navbar-custom.top-nav-short .avatar-container {
   opacity: 0;
   visibility: hidden;
@@ -357,6 +378,7 @@ img {
     border-radius: 50%;
   {% endunless %}
   display: block;
+  border: 1.25px solid rgb(30,30,30);
 }
 
 .navbar-custom.top-nav-expanded .avatar-container {
@@ -636,10 +658,10 @@ footer .footer-custom-content {
   font-size: 1rem;
 }
 
-/* --- Post and page headers --- */
+/* --- Home, Post and page headers --- */
 
 .intro-header {
-  margin: 5rem 0 1.25rem;
+  margin: 6rem 0 1.25rem;
   position: relative;
 }
 .intro-header.big-img {
@@ -671,15 +693,18 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   -moz-transition: opacity 1s linear;
   transition: opacity 1s linear;
 }
-.intro-header .page-heading {
+.intro-header .page-heading,
+.intro-header .home-heading {
   text-align: center;
 }
 .intro-header.big-img .page-heading,
+.intro-header.big-img .home-heading,
 .intro-header.big-img .post-heading {
   padding: 6.25rem 0;
   color: #FFF;
   text-shadow: 1px 1px 3px #000;
 }
+.intro-header .home-heading h1,
 .intro-header .page-heading h1 {
   margin-top: 0;
   font-size: 3.125rem;
@@ -690,17 +715,28 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
-  font-size: 1.6875rem;
+  font-size: 1.875rem;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: 'Alegreya Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
   margin: 0.625rem 0 0;
 }
+
+.intro-header .home-heading .home-subheading{
+  font-size: 1.875rem;
+  line-height: 0.8;
+  display: block;
+  font-family: 'Alegreya Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  margin: 0.625rem 0 0;
+}
+
 .intro-header .post-heading .post-subheading {
   margin-bottom: 1.25rem;
 }
 .intro-header.big-img .page-heading .page-subheading,
+.intro-header.big-img .home-heading .home-subheading,
 .intro-header.big-img .post-heading .post-subheading {
   font-weight: 400;
 }
@@ -731,11 +767,13 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
     margin-top: 5.6875rem; /* Full navbar is small navbar + 20px padding on each side when expanded */
   }
   .intro-header.big-img .page-heading,
+  .intro-header.big-img .home-heading,
   .intro-header.big-img .post-heading {
     padding: 9.375rem 0;
   }
+  .intro-header .home-heading h1,
   .intro-header .page-heading h1 {
-    font-size: 5rem;
+      font-size: 5rem;
   }
   .intro-header .post-heading h1 {
     font-size: 3.125rem;
@@ -765,6 +803,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
     height: 13.75rem;
   }
   .intro-header.big-img .page-heading,
+  .intro-header.big-img .home-heading,
   .intro-header.big-img .post-heading {
     display: none;
   }
@@ -1124,4 +1163,21 @@ pre {
   #nav-search-text {
     display: inline-block;
   }
+}
+
+
+div iframe {
+  width:100%;
+  aspect-ratio: 16/9;
+  background-color: white;
+  box-shadow: 10px 10px 10px #ccc;
+
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
+
+#rsvp-form {
+  max-width: 500px;
+  margin: 0 auto;
 }
