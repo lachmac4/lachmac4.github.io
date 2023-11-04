@@ -22,10 +22,10 @@ remove-ads: true
 ###############################################
 
 navbar-links:
-  Order of Service: "service"
-  Information:
-    - Ceremony: "ceremony"
-    - Reception: "reception"
+#  Order of Service: "ceremony"
+  Location:
+    - Ceremony: "ceremony-info"
+    - Reception: "reception-info"
   Livestream: "livestream"
   Registry: "registry"
 
@@ -66,7 +66,7 @@ social-network-links:
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-  instagram: "tags/macwedding24"
+  instagram: "explore/tags/macwedding24"
   spotify: "playlist/7pnBgfuBGcosE3M3rabqwb?si=ae038c3016174354"
 #  telephone: +14159998888
 #  steam: deanat78
