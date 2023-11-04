@@ -29,30 +29,25 @@ p {
   line-height: 1.5;
   margin: 1.875rem 0;
 }
-div.home-heading h1 {
-  font-family: 'WindSong';
-  font-weight: 400;
-  line-height: 1.1;
-  margin-top: 0;
-}
-div.page-heading h1 {
+/* div.page-heading h1 {
   font-family: 'Alegreya Sans';
   font-weight: 200;
   line-height: 1.1;
   margin-top: 0;
+} */
+div.home-heading h1,
+div.page-heading h1 {
+  font-family: 'WindSong';
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0;
 }
+
 
 h2, h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
-}
-
-h1 {
-  font-family: 'Ag';
-  font-weight: 900;
-
-  font-size: 2.25rem;
 }
 
 h2, span {
@@ -727,7 +722,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   display: block;
   font-family: 'Alegreya Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 200;
-  margin: 0.625rem 0 0;
+  margin: 0 0 0.625rem 0;
 }
 
 .intro-header .home-heading .home-subheading{

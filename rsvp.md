@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reception RSVP
+title: R.S.V.P.
 ---
 
 <div id="rsvp-form">
