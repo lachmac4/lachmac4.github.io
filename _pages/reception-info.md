@@ -2,6 +2,7 @@
 layout: page
 title: The Reception
 subtitle: The Springs Peats Ridge
+permalink: "/reception-info/"
 ---
 
 Blah blah blah

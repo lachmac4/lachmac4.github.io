@@ -2,6 +2,7 @@
 layout: page
 title: The Ceremony
 subtitle: St Matt's West Pennant Hills
+permalink: "/ceremony-info/"
 ---
 
 Blah blah blah

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: R.S.V.P.
+permalink: "/rsvp/"
 ---
 
 <div id="rsvp-form">

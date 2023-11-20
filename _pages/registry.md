@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Gift Registry
+permalink: "/registry/"
 ---
 
 A nice looking button and maybe some words will go here!
