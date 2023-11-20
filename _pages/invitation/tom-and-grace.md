@@ -1,5 +1,6 @@
 ---
 layout: invitation-page-reception
-subtitle: Tom and Grace
-permalink: "/invitation/tom-and-grace"
+subtitle: "Tom and Grace"
+permalink: "/tom-and-grace"
 ---
+        
