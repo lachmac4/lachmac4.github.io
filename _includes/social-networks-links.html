@@ -1,6 +1,8 @@
 {% if site.social-network-links %}
 <ul class="list-inline text-center footer-links">
 
+
+  
 {%- for network in site.social-network-links -%}
 
   {%- if network[0] == "rss" and network[1] and site.rss-description -%}
@@ -47,6 +49,18 @@
         <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
       </span>
       <span class="sr-only">Facebook</span>
+   </a>
+  </li>
+  {%- endif -%}
+
+  {%- if network[0] == "google-photos" -%}
+  <li class="list-inline-item">
+    <a href="{{ network[1] }}" target=_blank title="Photo Album">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Photo Album</span>
    </a>
   </li>
   {%- endif -%}
@@ -173,7 +187,7 @@
 
   {%- if network[0] == "youtube" -%}
   <li class="list-inline-item">
-    <a href="https://www.youtube.com/{{ network[1] }}" title="YouTube">
+    <a href="https://www.youtube.com/{{ network[1] }}" target=_blank title="YouTube">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
@@ -185,7 +199,7 @@
 
   {%- if network[0] == "spotify" -%}
   <li class="list-inline-item">
-    <a href="https://open.spotify.com/{{ network[1] }}" title="Spotify">
+    <a href="https://open.spotify.com/{{ network[1] }}" target=_blank title="Spotify">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-spotify fa-stack-1x fa-inverse"></i>
