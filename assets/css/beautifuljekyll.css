@@ -1187,8 +1187,8 @@ div iframe {
 }
 
 #rsvp-form {
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: 1rem auto;
 }
 
 .centre-button {
