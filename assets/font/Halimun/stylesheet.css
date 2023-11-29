@@ -4,8 +4,13 @@
 
 @font-face {
     font-family: 'halimunregular';
-    src: url('halimun-webfont.woff2') format('woff2'),
-         url('halimun-webfont.woff') format('woff');
+    src: url('halimun-webfont.eot');
+    src: url('halimun-webfont.eot?#iefix') format('embedded-opentype'),
+         url('halimun-webfont.woff2') format('woff2'),
+         url('halimun-webfont.woff') format('woff'),
+         url('halimun-webfont.ttf') format('truetype'),
+         url('halimun-webfont.svg#halimunregular') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
