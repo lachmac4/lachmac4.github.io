@@ -24,8 +24,8 @@ include: ['_pages']
 ###############################################
 
 navbar-links:
-  Order of Service: "order-of-service"
-  # Invitation: "invitation"
+  # Order of Service: "order-of-service"
+  Invitation: "invitation"
   Details:
     - Ceremony: "ceremony-info"
     - Reception: "reception-info"
