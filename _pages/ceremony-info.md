@@ -2,7 +2,7 @@
 layout: page
 title: The Ceremony
 subtitle: St Matthew's West Pennant Hills
-permalink: "/ceremony-info/"
+permalink: "/ceremony-info"
 ---
 
 

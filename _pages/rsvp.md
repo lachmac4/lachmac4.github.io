@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RSVP
-permalink: "/rsvp/"
+permalink: "/rsvp"
 redirect_from:
   - "/RSVP"
 ---
