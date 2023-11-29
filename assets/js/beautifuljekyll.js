@@ -138,7 +138,7 @@ let BeautifulJekyllJS = {
 };
 
 
-if (document.cookie=="reception=true") {
+if (includes(document.cookie, "reception=true")) {
   document.getElementById("reception-dropdown").style.display = "block";
 }
 
