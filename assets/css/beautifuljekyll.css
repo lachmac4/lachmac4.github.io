@@ -1342,8 +1342,7 @@ div iframe {
 
 .rsvp-button {
   /* background-color: {{ site.page-col | default: "#FFFFFF" }}; */
-  max-width: 595px;
-  min-width: 195x;
+  max-width: 400px;
   margin: -5px auto 0;
 }
 
@@ -1360,10 +1359,9 @@ div iframe {
   top: 7px;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,20,0,0.03); /*{{ site.text-col | default: "#404040" }}; */
-  -webkit-box-shadow: inset 0px 0px 0px 2px rgba(0,0,0,0.1);
-  -moz-box-shadow: inset 0px 0px 0px 2px rgba(0,0,0,0.1);
-  box-shadow: inset 0px 0px 0px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0px 0px 0px 2px {{site.navbar-col}};
+  -moz-box-shadow: inset 0px 0px 0px 2px {{site.navbar-col}};
+  box-shadow: inset 0px 0px 0px 2px {{site.navbar-col}};
   display: block;
   -webkit-transition: all .15s ease-out;
   -moz-transition: all .15s ease-out;
@@ -1378,7 +1376,8 @@ div iframe {
   width: 100%;
   height: 100%;
   padding: 24px 34px 22px 34px;
-  border: 2px solid {{site.navbar-col}};
+  border: 2px solid rgba(0,0,0,0.1);;
+  background-color: rgba(0,20,0,0.03); /*{{ site.text-col | default: "#404040" }}; */
 }
 
 .button-dark .top {

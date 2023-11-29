@@ -55,12 +55,12 @@
 
   {%- if network[0] == "google-photos" -%}
   <li class="list-inline-item">
-    <a href="{{ network[1] }}" target=_blank title="Photo Album">
+    <a href="{{ network[1] }}" target=_blank title="Shared Photo Album">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+        <i class="fab fa-google fa-stack-1x fa-inverse"></i>
       </span>
-      <span class="sr-only">Photo Album</span>
+      <span class="sr-only">Shared Photo Album</span>
    </a>
   </li>
   {%- endif -%}
@@ -187,24 +187,24 @@
 
   {%- if network[0] == "youtube" -%}
   <li class="list-inline-item">
-    <a href="https://www.youtube.com/{{ network[1] }}" target=_blank title="YouTube">
+    <a href="https://www.youtube.com/{{ network[1] }}" target=_blank title="Livestream">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
       </span>
-      <span class="sr-only">YouTube</span>
+      <span class="sr-only">Livestream</span>
    </a>
   </li>
   {%- endif -%}
 
   {%- if network[0] == "spotify" -%}
   <li class="list-inline-item">
-    <a href="https://open.spotify.com/{{ network[1] }}" target=_blank title="Spotify">
+    <a href="https://open.spotify.com/{{ network[1] }}" target=_blank title="Playlists">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-spotify fa-stack-1x fa-inverse"></i>
       </span>
-      <span class="sr-only">Spotify</span>
+      <span class="sr-only">Playlists</span>
    </a>
   </li>
   {%- endif -%}
