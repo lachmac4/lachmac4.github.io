@@ -1342,8 +1342,12 @@ div iframe {
 
 .rsvp-button {
   /* background-color: {{ site.page-col | default: "#FFFFFF" }}; */
-  max-width: 400px;
+  max-width: 600px;
   margin: -5px auto 0;
+}
+
+.rsvp-button .button {
+  max-width: 80%;
 }
 
 .index-buttons {
