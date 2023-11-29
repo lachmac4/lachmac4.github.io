@@ -2,6 +2,8 @@
 layout: page
 title: RSVP
 permalink: "/rsvp/"
+redirect_from:
+  - "/RSVP"
 ---
 
 <div id="rsvp-form">
