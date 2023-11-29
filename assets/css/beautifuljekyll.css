@@ -1480,3 +1480,7 @@ div .map {
   aspect-ratio: 5/4;
   max-height: 400px;
 }
+
+#reception-dropdown {
+  display: none;
+}

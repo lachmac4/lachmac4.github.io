@@ -4,6 +4,12 @@
   {% endfor %}
 {% endif %}
 
+{% if page.layout=="invitation-page-reception" %}
+  <script>
+    document.cookie = "reception=true;;path=/";
+  </script>
+{% endif %}
+
 {% if layout.common-js %}
   {% for js in layout.common-js %}
     <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
