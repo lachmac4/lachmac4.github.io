@@ -1,6 +1,6 @@
 ---
 layout: page
-title: R.S.V.P.
+title: RSVP
 permalink: "/rsvp/"
 ---
 

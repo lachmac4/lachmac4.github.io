@@ -24,13 +24,24 @@ include: ['_pages']
 ###############################################
 
 navbar-links:
-#  Order of Service: "ceremony"
-  Invitation: "invitation"
-  Location:
+  Order of Service: "order-of-service"
+  # Invitation: "invitation"
+  Details:
     - Ceremony: "ceremony-info"
     - Reception: "reception-info"
   Livestream: "livestream"
   Registry: "registry"
+
+roles:
+  ushers: "TBD."
+  band: "Harrison, Anna, Jonno, Justin, Lachie, and Matt"
+  flowers: "Bella & Lucinda"
+  tech: "Harry & Richard"
+  prayers: "Felicity & Wellen"
+  readings: "Lucinda & Michael"
+  tea: "TBD."
+
+  
 
 ################
 # --- Logo --- #
@@ -146,6 +157,7 @@ footer-col: "#EAEAEA"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 footer-hover-col: "#607e65"
+title-col: "#444"
 
 #Blueish was #0085A1
 
