@@ -831,6 +831,13 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   }
 }
 
+@media (max-width: 475px) {
+  .intro-header .page-heading h1 {
+    margin-top: 0.5rem;
+    font-size: 1.9rem;
+  }
+}
+
 .header-section.has-img .no-img {
   margin-top: 0;
   background-color: #FCFCFC;
@@ -1469,3 +1476,7 @@ div iframe {
   height: 2px;
 }
 
+div .map {
+  aspect-ratio: 5/4;
+  max-height: 400px;
+}
