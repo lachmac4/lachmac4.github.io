@@ -1,6 +1,6 @@
 ---
 layout: invitation-page-reception
-subtitle: "Jenni and Bryan"
-permalink: "/jenni-and-bryan"
+subtitle: "Jenni and Brian"
+permalink: "/jenni-and-brian"
 ---
         
