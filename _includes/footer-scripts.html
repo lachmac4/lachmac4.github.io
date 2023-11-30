@@ -42,8 +42,10 @@
     {% if page.layout=="invitation-page-reception" %}
       <script>
         $(document).ready(function(){
-          eraseCookie("reception");
-          setCookie("reception", "{{ page.permalink }}");
+          eraseCookie("invitation-link");
+          eraseCookie("reception-names");
+          setCookie("invitation-link", "{{ page.permalink }}");
+          setCookie("reception-names", "{{ page. subtitle }}")
         });
       </script>
     {% endif %}

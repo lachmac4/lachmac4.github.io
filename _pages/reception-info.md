@@ -5,6 +5,10 @@ subtitle: The Springs Peats Ridge
 permalink: "/reception-info"
 ---
 
+<div class="text-center">
+<h3 id="invitation-names"></h3>
+</div>
+
 <hr>
 <div class="text-center">
 <p><i>We can only accommodate the guests named on your personal invitation.</i></p>

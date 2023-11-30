@@ -163,12 +163,16 @@ function eraseCookie(name) {
 
 
 
-if (getCookie("reception")) {
+if (getCookie("invitation-link")) {
   document.getElementById("reception-dropdown").style.display = "block";
-  document.getElementById("invitation-link").href = getCookie("reception");
+  document.getElementById("invitation-link").href = getCookie("invitation-link");
   if (document.getElementById("invitation-button")) {
-    document.getElementById("invitation-button").href = getCookie("reception");
+    document.getElementById("invitation-button").href = getCookie("invitation-link");
   }
+  if (document.getElementById("invitation-names")) {
+    document.getElementById("invitation-names").textContent = getCookie("reception-names");
+  }
+
 }
 
 // 2fc73a3a967e97599c9763d05e564189
