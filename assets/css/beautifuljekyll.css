@@ -1256,23 +1256,27 @@ div iframe {
 }
 
 .name-subheading {
-  margin: 0rem auto;
   max-width: 600px;
-  padding-left: 0.25rem;
-  padding-right: 0.25rem;
+  margin: 0 auto;
+}
+
+.name-subheading .contents {
+  width: 600px;
+  padding: 0 0.5rem;
 }
 
 .name-subheading h3 {
+  text-align: center;
   color: {{ site.text-col }};
   font-size: 2rem;
   line-height: 1.25;
   display: block;
-  font-family: 'Alegreya Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-family: 'Maharlika', serif;
+  font-weight: 200;
 }
 
 .name-subheading hr {
-  margin: -0.25rem auto;
+  margin: -0.25rem 0;
 }
 
 .invitation-body {
