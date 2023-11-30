@@ -1,6 +1,5 @@
 ---
 layout: invitation-page-reception
-subtitle: "Wellen"
-permalink: "/wellen"
+subtitle: "Wellen and Annaliese"
+permalink: "/wellen-and-annaliese"
 ---
-        
