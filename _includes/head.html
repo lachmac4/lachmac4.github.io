@@ -114,11 +114,10 @@
   {%- endcapture -%}
   {%- assign img=img | strip -%}
 
-  <meta property="og:title" content="{{ title }}">
-  <meta property="og:description" content="{{ description }}">
+  <meta property="og:title" content="Caitlin & Lachlan">
+  <meta property="og:description" content="You're Invited!">
 
-  {% if img != "" %}
-  <meta property="og:image" content="{{ img | absolute_url }}">
+  <meta property="og:image" content="{{ site.share-img }}">
   {% endif %}
 
   {% if page.id %}
