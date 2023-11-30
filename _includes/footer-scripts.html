@@ -32,15 +32,18 @@
     {% endfor %}
     {% endif %}
     
-    {% if page.layout=="invitation-page-reception" %}
-      <script>
-        eraseCookie("reception");
-        setCookie("reception", "{{ page.permalink }}");
-      </script>
-    {% endif %}
     
     {% if page.js %}
     {% for js in page.js %}
     <script src="{{ js | relative_url }}"></script>
     {% endfor %}
+    {% endif %}
+
+    {% if page.layout=="invitation-page-reception" %}
+      <script>
+        $(document).ready(function(){
+          eraseCookie("reception");
+          setCookie("reception", "{{ page.permalink }}");
+        });
+      </script>
     {% endif %}

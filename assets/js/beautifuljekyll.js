@@ -166,6 +166,9 @@ function eraseCookie(name) {
 if (getCookie("reception")) {
   document.getElementById("reception-dropdown").style.display = "block";
   document.getElementById("invitation-link").href = getCookie("reception");
+  if (document.getElementById("invitation-button")) {
+    document.getElementById("invitation-button").href = getCookie("reception");
+  }
 }
 
 // 2fc73a3a967e97599c9763d05e564189
