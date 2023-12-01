@@ -7,7 +7,7 @@ permalink: "/photo-order"
 <br>
 <hr>
 <div id="iframe-wrapper">
-<iframe src="https://docs.google.com/spreadsheets/d/1XZFDmvhBl9zWHCceZrr4Wt2PgyZ-gHbino6aTlbVZfU/edit?rm=minimal&amp;"></iframe>
+<iframe id="photo-list" src="https://docs.google.com/spreadsheets/d/1XZFDmvhBl9zWHCceZrr4Wt2PgyZ-gHbino6aTlbVZfU/edit?rm=minimal&amp;"></iframe>
 </div>
 
 <br>
