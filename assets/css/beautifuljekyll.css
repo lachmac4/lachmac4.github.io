@@ -1488,3 +1488,37 @@ div .map {
 #reception-dropdown {
   display: none;
 }
+
+#iframe-wrapper {
+  position:relative;
+  /* aspect-ratio: 4/5; */
+  max-width: 100%;
+  min-height: 400px;  
+  height: 450px;
+  max-height: 600px;
+}
+
+#iframe-wrapper iframe {
+  height: 100%;
+  width: 100%;
+  min-height: 400px;
+  height: 450px;
+  max-height: 600px;
+  outline: 50px solid {{site.navbar-col}};
+  outline-offset: -50px;   
+}
+
+#iframe-wrapper {
+  position: relative;
+}
+
+#iframe-wrapper:before {
+content: '';
+position: absolute;
+top: 50px;
+bottom: 50px;
+left: 50px;
+right: 50px;
+box-shadow: inset 0 0 0 1px black;
+pointer-events: none;
+}
