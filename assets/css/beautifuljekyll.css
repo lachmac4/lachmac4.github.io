@@ -1562,3 +1562,15 @@ div .map {
     -webkit-transform: scale(0.4);
     -webkit-transform-origin: 0 0;
 }
+
+div .song {
+  max-width: 450px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+div .song i {
+  border-left: 2px solid lightgray;
+  padding-left: 1rem;
+  display: block;
+}

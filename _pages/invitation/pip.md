@@ -1,5 +1,5 @@
 ---
 layout: invitation-page-reception
-subtitle: "Bella"
-permalink: "/bella"
+subtitle: "Pip"
+permalink: "/pip"
 ---

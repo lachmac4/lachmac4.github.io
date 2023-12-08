@@ -16,7 +16,68 @@ permalink: "/order-of-service"
 <hr>
 
 <h3>SONG</h3>
-How Great Thou Art
+
+
+<h4>How Great Thou Art</h4>
+</div>
+<div class=song>
+O Lord my God when I in awesome wonder <br>
+Consider all the works Thy hand hath made    <br>
+I see the stars I hear the rolling thunder    <br>
+Thy pow'r throughout the universe displayed    <br>
+<br>
+<i>
+Then sings my soul my Saviour God to Thee    <br>
+How great Thou art, how great Thou art    <br>
+Then sings my soul my Saviour God to Thee    <br>
+How great Thou art, how great Thou art    <br>
+</i>
+<br>
+When through the woods and forest glades I wander <br> 
+And hear the birds sing sweetly in the trees  <br>
+When I look down from lofty mountain grandeur  <br>
+And hear the brook and feel the gentle breeze  <br>
+  
+<br>
+<i>
+Then sings my soul my Saviour God to Thee    <br>
+How great Thou art, how great Thou art    <br>
+Then sings my soul my Saviour God to Thee    <br>
+How great Thou art, how great Thou art    <br>
+</i>
+<br>
+  
+And when I think that God His Son not sparing  <br>
+Sent Him to die I scarce can take it in  <br>
+That on the Cross my burden gladly bearing  <br>
+He bled and died to take away my sin <br>
+  
+<br>
+<i>
+Then sings my soul my Saviour God to Thee    <br>
+How great Thou art, how great Thou art    <br>
+Then sings my soul my Saviour God to Thee    <br>
+How great Thou art, how great Thou art    <br>
+</i>
+<br>
+  
+When Christ shall come with shout of acclamation  <br>
+And take me home what joy shall fill my heart  <br>
+Then shall I bow in humble adoration  <br>
+And there proclaim my God how great Thou art  <br>
+  
+<br>
+<i>
+Then sings my soul my Saviour God to Thee    <br>
+How great Thou art, how great Thou art    <br>
+Then sings my soul my Saviour God to Thee    <br>
+How great Thou art, how great Thou art    <br>
+</i>
+<br>
+
+</div>
+
+<div class="text-center">
 
 <hr>
 
@@ -30,6 +91,8 @@ How Great Thou Art
 
 <h3>SONG</h3>
 Great Are You Lord
+
+
 
 <hr>
 
