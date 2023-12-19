@@ -1,6 +1,5 @@
 ---
 layout: invitation-page-reception
-subtitle: "Abe"
-permalink: "/abe"
+subtitle: "Steve and Sue"
+permalink: "/steve-and-sue"
 ---
-        
