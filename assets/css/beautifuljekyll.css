@@ -10,7 +10,7 @@ html {
   font-size: 100%
 }
 
-body {
+body, pre {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 1.125rem;
   color: {{ site.text-col | default: "#404040" }};
@@ -51,7 +51,7 @@ body {
 }
 
 .bridal-party p {
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 p {
@@ -97,6 +97,7 @@ h3 {
 }
 h4 {
   font-size: 1.125rem;
+  font-family: 'Maharlika';
 }
 h1, h2, h3, h4 {
   margin-top: 1.25rem;
@@ -1573,4 +1574,16 @@ div .song i {
   border-left: 2px solid lightgray;
   padding-left: 1rem;
   display: block;
+}
+
+div .tab {
+  width: 2rem;
+  display: inline-block;
+}
+
+div .justif {
+  max-width: 450px;
+  margin: 0 auto;
+  font-size: 1rem;
+  text-align: justify;
 }
