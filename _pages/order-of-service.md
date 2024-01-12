@@ -249,7 +249,7 @@ You traced the mountain peaks  <br>
 You paint the evening sky with wonders  <br>
 The earth, it is Your throne  <br>
 From desert to the sea  <br>
-All nature testifies Your splendor  <br>
+All nature testifies Your splendour  <br>
   <br>
   <i>
 Praise the Lord, praise the Lord  <br>
@@ -282,7 +282,7 @@ Let symphonies resound  <br>
 Let drums and choirs ring out  <br>
 All heaven hear the sound of worship  <br>
 Let every nation bring  <br>
-Its honors to the King  <br>
+Its honours to the King  <br>
 A roar of harmonies eternal  <br>
   <br>
 <i>
@@ -367,46 +367,23 @@ Praise the Lord  <br>
 
 
 <div class="row">
-  <div class="column">
-    <div class="entry">
-      <div class="role">Band: </div>
-      <div class="people">{{site.roles.band}}</div>
-    </div>
-
-    <div class="entry">
-      <div class="role">Tech: </div>
-      <div class="people">{{site.roles.tech}}</div>
-    </div>
-    
-    <div class="entry">
-      <div class="role">Flowers: </div>
-      <div class="people">{{site.roles.flowers}}</div>
-    </div>
+  <div class="column text-center">
+      <p><b>Band</b></p>
+      <p>{{site.roles.band}}</p>
+      <p><b>Tech</b></p>
+      <p>{{site.roles.tech}}</p>
+      <p><b>Decoration</b></p>
+      <p>{{site.roles.flowers}}</p>
   </div>
-  <div class="column">
-
-    <div class="entry">
-      <div class="role">Prayers: </div>
-      <div class="people">{{site.roles.prayers}}</div>
-    </div>
-
-    <div class="entry">
-      <div class="role">Readings: </div>
-      <div class="people">{{site.roles.readings}}</div>
-    </div>
-
-
-    <div class="entry">
-      <div class="role">Ushers: </div>
-      <div class="people">{{site.roles.ushers}}</div>
-    </div>
-
-    <div class="entry">
-      <div class="role">Afternoon Tea: </div>
-      <div class="people">{{site.roles.tea}}</div>
-    </div>
-
-    
+  <div class="column text-center">
+      <p><b>Prayers</b></p>
+      <p>{{site.roles.prayers}}</p>
+      <p><b>Readings</b></p>
+      <p>{{site.roles.readings}}</p>
+      <p><b>Ushers</b></p>
+      <p>{{site.roles.ushers}}</p>
+      <p><b>Afternoon Tea</b></p>
+      <p>{{site.roles.tea}}</p>    
   </div>
 </div>
 
