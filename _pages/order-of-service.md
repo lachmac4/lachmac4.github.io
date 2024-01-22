@@ -237,6 +237,7 @@ Let the peace of Christ rule in your hearts, since as members of one body you we
 
 <hr>
 <h3>THE ADDRESS</h3>
+<h4>Ron Irving</h4>
 <hr>
 <h3>SONG</h3>
 <hr>
